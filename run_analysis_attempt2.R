@@ -47,6 +47,5 @@ run_anlaysis <- function(path="./UCI HAR Dataset"){
     
     rejoin <- cbind(gathered,cols)
     
-    final <- select(rejoin, subjectID, activityID, activity, measure, metric
-                    , axis, value)
+    final <- select(rejoin, subjectID, activity, measure, metric, axis, value)
 }
